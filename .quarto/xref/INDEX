@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "8b9478de"
+  },
+  "about.qmd": {
+    "about.html": "3912a54c"
+  },
+  "Python.qmd": {
+    "Python.html": "9d3eca3b"
+  },
+  "python.qmd": {
+    "python.html": "3e0df664"
+  },
+  "neuralNetworks.qmd": {
+    "neuralNetworks.html": "e24eaf5d"
+  },
+  "Proyecto_HeadCounting.ipynb": {
+    "Proyecto_HeadCounting.html": "619b111f"
+  }
+}
