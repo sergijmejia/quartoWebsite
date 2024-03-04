@@ -3,25 +3,93 @@ project:
 
 website:
   title: "Quarto Website"
+
   navbar:
+    background: secondary
+    style: "floating"
+    search: true
+
     left:
-      - href: index.qmd
-        text: " "
+      - text: " "
         icon: house
-      - python.qmd
-      - text: "Machine Learning"
-        menu:
-          - href: neuralNetworks.qmd
-            text: Neural Networks
-            menu:  
-            - href: convulsionalNeuralNetworks.qmd
-              text: Convulsional Neural Networks
-      - text: "Project head counting"
-        href: Proyecto_HeadCounting.ipynb
+        file: index.qmd
+      - icon: github
+        href: https://github.com/
+    
+    right:    
+      - sidebar:python
+      - sidebar:ML
+      - sidebar:NN
+      - sidebar:Colab
+      - sidebar:project
+      - sidebar:about
+
+  sidebar:
+    - id: "python"
+      title: "Python"
+      border: true
+      collapse-level: 1
+      background: light
+      search: true
+      style: "floating"
+      contents:
+        - text: "Python"  
+        - text: "---"
+        - section: "Python: concepts"
+          contents:
+            - python.qmd
+        - text: "---"
+        - section: "Data analysys"
+          contents:
+            - data_analysis.qmd
+            - pandas.ipynb
+
+    - id: "ML"
+      title: "Machine Learning"
+      contents:
+        - text: "Machine Learning"  
+        - text: "---"
+        - section: "ML: concepts"
+          contents:
+
+    - id: "NN"
+      title: "Neural Networks"
+      contents:
+        - text: "Neural Networks"  
+        - text: "---"
+        - section: "NN: concepts"
+          contents:
+            - neuralNetworks.qmd
+
+    - id: "Colab"
+      title: "Google Colab"
+      contents:
+        - text: "Google Colab"  
+        - text: "---"
+        - section: "Colab: concepts"
+          contents:
+
+    - id: "project"
+      title: "Head-count project"
+      contents:
+        - text: "Head-count project"  
+        - text: "---"
+        - section: "Project: concepts"
+          contents:
+            - Proyecto_HeadCounting.ipynb
+
+    - id: "about"
+      title: "About"
+      contents:
+        - text: "About"
+        - text: "---"
+        - section: "About me and this site"
+          
+
+        
             
 
-    right:
-      - about.qmd
+
       
       
 
