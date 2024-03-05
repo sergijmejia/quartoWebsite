@@ -37,20 +37,35 @@ website:
         - text: "---"
         - section: "Python: concepts"
           contents:
-            - python.qmd
+            - python/python.qmd
         - text: "---"
         - section: "Data analysys"
           contents:
-            - data_analysis.qmd
-            - pandas.ipynb
+            - python/data_analysis.qmd
+            - python/numpy.ipynb
+            - python/pandas.ipynb           
+            - python/matplotlib.ipynb
+            - python/seaborn.ipynb
+            - python/scikit-learn.ipynb
+            - python/tensorflow.ipynb
 
     - id: "ML"
       title: "Machine Learning"
+      border: true
+      collapse-level: 1
+      background: light
+      search: true
+      style: "floating"
       contents:
         - text: "Machine Learning"  
         - text: "---"
         - section: "ML: concepts"
           contents:
+            - machine_learning/machine_learning.qmd
+        - text: "---"
+        - section: "Supervised learning"
+          contents:
+            - machine_learning/supervised_intro.ipynb
 
     - id: "NN"
       title: "Neural Networks"

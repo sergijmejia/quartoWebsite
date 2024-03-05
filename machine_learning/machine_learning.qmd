@@ -1,0 +1,25 @@
+---
+title: "Machine Learning"
+---
+
+Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computers to learn and improve their performance on a specific task without being explicitly programmed. In other words, it's about creating algorithms that can learn patterns and relationships from data and make predictions or decisions based on that learning.
+
+The core idea behind machine learning is to enable computers to learn from data and adapt their behavior accordingly. Instead of being explicitly programmed with rules or instructions to carry out a task, machine learning algorithms are trained on a dataset that contains examples of input-output pairs. By analyzing these examples, the algorithm learns patterns and relationships in the data, which it can then use to make predictions or decisions on new, unseen data.
+
+There are several types of machine learning algorithms, including:
+
+**Supervised learning:** In supervised learning, the algorithm is trained on a labeled dataset, where each example is associated with a label or outcome variable. The goal is to learn a mapping from input variables to output variables, such as class labels or numerical values. Common supervised learning tasks include classification (predicting discrete class labels) and regression (predicting continuous values).
+
+**Unsupervised learning:** In unsupervised learning, the algorithm is trained on an unlabeled dataset, where the goal is to learn the underlying structure or patterns in the data. Unsupervised learning algorithms seek to identify clusters or groups of similar data points, discover hidden patterns, or reduce the dimensionality of the data.
+
+**Semi-supervised learning:** Semi-supervised learning combines elements of supervised and unsupervised learning. It leverages a small amount of labeled data along with a larger amount of unlabeled data to improve the performance of the learning algorithm.
+
+**Reinforcement learning:** Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback or rewards based on its actions, and its goal is to learn a policy or strategy that maximizes the cumulative reward over time.
+
+Machine learning algorithms are applied to a wide range of real-world problems, including image and speech recognition, natural language processing, recommendation systems, autonomous vehicles, medical diagnosis, and financial forecasting, among others. As data availability and computing power continue to grow, machine learning is becoming increasingly important in solving complex problems and driving innovation across various industries.
+
+Here will be given a brief introduction to the most relevant aspects of supervised learning.
+
+
+
+

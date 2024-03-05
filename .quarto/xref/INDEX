@@ -22,5 +22,35 @@
   },
   "pandas.ipynb": {
     "pandas.html": "157a852c"
+  },
+  "python/python.qmd": {
+    "python.html": "25be56d4"
+  },
+  "python/pandas.ipynb": {
+    "pandas.html": "8e0cdb4a"
+  },
+  "python/data_analysis.qmd": {
+    "data_analysis.html": "f5868754"
+  },
+  "python/tensorflow.ipynb": {
+    "tensorflow.html": "79674f9b"
+  },
+  "python/matplotlib.ipynb": {
+    "matplotlib.html": "59849534"
+  },
+  "python/numpy.ipynb": {
+    "numpy.html": "ee75ec1d"
+  },
+  "python/seaborn.ipynb": {
+    "seaborn.html": "73a0a488"
+  },
+  "python/scikit-learn.ipynb": {
+    "scikit-learn.html": "642f2908"
+  },
+  "machine_learning/machine_learning.qmd": {
+    "machine_learning.html": "795c9069"
+  },
+  "machine_learning/supervised_intro.ipynb": {
+    "supervised_intro.html": "00cabb31"
   }
 }
