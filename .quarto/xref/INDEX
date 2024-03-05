@@ -52,5 +52,23 @@
   },
   "machine_learning/supervised_intro.ipynb": {
     "supervised_intro.html": "00cabb31"
+  },
+  "machine_learning/linear_regression.ipynb": {
+    "linear_regression.html": "3ec8768c"
+  },
+  "machine_learning/Overfitting_underfitting.ipynb": {
+    "Overfitting_underfitting.html": "26a59bfd"
+  },
+  "machine_learning/overfitting_underfitting.ipynb": {
+    "overfitting_underfitting.html": "37dbee0e"
+  },
+  "machine_learning/train_test.ipynb": {
+    "train_test.html": "f28c4c95"
+  },
+  "machine_learning/k_neighboors.ipynb": {
+    "k_neighboors.html": "13f7f86b"
+  },
+  "machine_learning/tree_methods.ipynb": {
+    "tree_methods.html": "6c91f59b"
   }
 }

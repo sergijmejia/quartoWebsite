@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Quarto Website"
+
 
   navbar:
     background: secondary
@@ -14,7 +14,7 @@ website:
         icon: house
         file: index.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/sergijmejia/quartoWebsite/
     
     right:    
       - sidebar:python
@@ -66,6 +66,11 @@ website:
         - section: "Supervised learning"
           contents:
             - machine_learning/supervised_intro.ipynb
+            - machine_learning/linear_regression.ipynb
+            - machine_learning/overfitting_underfitting.ipynb
+            - machine_learning/train_test.ipynb
+            - machine_learning/k_neighboors.ipynb
+            - machine_learning/tree_methods.ipynb
 
     - id: "NN"
       title: "Neural Networks"
