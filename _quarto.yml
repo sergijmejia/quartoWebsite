@@ -74,20 +74,39 @@ website:
 
     - id: "NN"
       title: "Neural Networks"
+      border: true
+      collapse-level: 1
+      background: light
+      search: true
+      style: "floating"
       contents:
         - text: "Neural Networks"  
         - text: "---"
         - section: "NN: concepts"
           contents:
-            - neuralNetworks.qmd
+            - neural_networks/neuralNetworks.qmd
+        - text: "---"
+        - section: NN types
+          contents:
+            - neural_networks/cnn.ipynb
+            - neural_networks/gan.ipynb
+            - neural_networks/ts.ipynb
+            - neural_networks/rnn.ipynb
+            - neural_networks/nlp.ipynb
 
     - id: "Colab"
       title: "Google Colab"
+      border: true
+      collapse-level: 1
+      background: light
+      search: true
+      style: "floating"
       contents:
         - text: "Google Colab"  
         - text: "---"
         - section: "Colab: concepts"
           contents:
+            - colab/colab_intro.qmd
 
     - id: "project"
       title: "Head-count project"

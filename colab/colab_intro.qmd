@@ -1,0 +1,67 @@
+---
+title: "Colab"
+---
+
+**What is Google Colab?**
+
+Google Colab, short for Google Colaboratory, is a cloud-based platform provided by Google that offers free Jupyter notebooks with GPU and TPU (Tensor Processing Unit) support. It allows users to write and execute Python code collaboratively, directly in the browser, without requiring any setup or installation.
+
+Some key features of Google Colab include:
+
+- *Free access to GPUs and TPUs:* Google Colab provides free access to Graphics Processing Units (GPUs) and Tensor Processing Units (TPUs), which are hardware accelerators commonly used for training machine learning models and processing large datasets.
+
+- *Jupyter Notebooks integration:* Colab supports Jupyter notebooks, which allow users to write and execute code in a cell-based format, making it easy to write, run, and visualize code and results.
+
+- *Collaboration and sharing:* Colab allows multiple users to collaborate on the same notebook simultaneously, similar to Google Docs. Users can share their notebooks with others, making it easy to collaborate on projects or share code and analyses.
+
+- *Integration with Google Drive:* Colab notebooks are stored in Google Drive, allowing users to access and manage their notebooks directly from their Google Drive account.
+
+- *Support for popular libraries and frameworks:* Colab comes pre-installed with many popular Python libraries and frameworks, including TensorFlow, Keras, Pandas, Numpy and scikit-learn, making it suitable for a wide range of machine learning and data analysis tasks.
+
+Overall, Google Colab provides a convenient and powerful environment for writing, running, and sharing code, particularly for tasks involving machine learning and data analysis, thanks to its access to GPUs and TPUs.
+
+
+**Limitations and restrictions**
+
+Google Colab provides free access to computational resources, including CPU, GPU, and TPU, but there are limitations and restrictions on the usage of these resources:
+
+- *Session Timeout:* Colab sessions have a maximum duration of 12 hours. After this period, the session will automatically disconnect, and any unsaved work will be lost. Users can reconnect to a new session, but they will lose access to any temporary files or variables stored in the previous session.
+
+- *Idle Timeout:* If a Colab notebook remains idle for a certain period, typically around 30 minutes, the session may disconnect automatically. This idle timeout is in place to conserve resources and ensure fair usage of the platform.
+
+- *Resource Limits:* While Colab offers free access to GPU and TPU resources, there are usage limits and restrictions on the availability of these resources. For example, the free version of Colab may limit the maximum amount of GPU memory available, restrict access to certain GPU models, and impose quotas on the total usage of GPU and TPU resources.
+
+- *Memory Limits:* Colab imposes memory limits on the amount of RAM available to a notebook. The exact limit may vary depending on the type of virtual machine allocated to the session but typically ranges from 12 GB to 25 GB.
+
+- *Storage Limits:* Colab notebooks are stored in Google Drive, which provides limited storage space for free Google accounts. Users may encounter storage limits if they exceed the allocated quota for Google Drive storage.
+
+- *Concurrency Limits:* Colab may limit the number of concurrent sessions or active sessions per user. Users may experience delays or restrictions in accessing resources during periods of high demand.
+
+- *Network Access:* Colab restricts outbound network access for security reasons. Users may encounter limitations when trying to access external resources or services, such as databases, APIs, or websites.
+
+It's essential to be aware of these limitations when using Google Colab, especially for tasks that require extended computation or large amounts of data. While Colab provides valuable resources for experimentation, prototyping, and learning, users may need to consider alternative options or paid cloud services for more intensive or long-running workloads.
+
+
+**Colab Pro**
+
+Google Colab offers a paid version called "Colab Pro" that provides additional features and benefits compared to the free version. Here are some key aspects of Colab Pro:
+
+- *Increased Resource Limits:* Colab Pro users have access to higher resource limits compared to the free version. This includes higher GPU memory limits, faster GPU models, and potentially longer session durations.
+
+- *Priority Access:* Colab Pro users may receive priority access to resources, which can reduce wait times and ensure faster execution of tasks, especially during periods of high demand.
+
+- *Longer Session Durations:* Colab Pro users may have access to longer session durations compared to the free version, allowing them to run computations and experiments for extended periods without interruption.
+
+- *Additional Storage:* Colab Pro users may receive additional storage space for Google Drive, which can be useful for storing larger datasets, files, or notebooks.
+
+- *No Idle Timeout:* Colab Pro sessions may not be subject to the idle timeout restrictions imposed on the free version, allowing users to maintain active sessions for longer periods without disconnection.
+
+- *Technical Support:* Colab Pro users may receive access to priority technical support from Google, which can be beneficial for resolving issues or troubleshooting problems quickly.
+
+- *Customization and Control:* Colab Pro users may have access to additional customization options and control over their computing environment, allowing them to tailor the environment to their specific needs and preferences.
+
+Colab Pro is a subscription-based service, and users are billed on a monthly basis. The pricing and availability of Colab Pro may vary depending on factors such as region and currency. Users can sign up for Colab Pro directly through the Google Colab website or the Google Cloud Platform console.
+
+Overall, Colab Pro offers a range of benefits and features that can enhance the user experience and productivity, especially for users with demanding computational requirements or those who require additional resources and support.
+
+

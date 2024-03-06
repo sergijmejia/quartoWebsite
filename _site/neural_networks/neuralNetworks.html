@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Machine Learning</title>
+<title>Neural Networks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,6 +60,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -245,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../machine_learning/machine_learning.html">ML: concepts</a></li><li class="breadcrumb-item"><a href="../machine_learning/machine_learning.html">Machine Learning</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../neural_networks/neuralNetworks.html">NN: concepts</a></li><li class="breadcrumb-item"><a href="../neural_networks/neuralNetworks.html">Neural Networks</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -266,13 +268,13 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
- <span class="menu-text">Machine Learning</span>
+ <span class="menu-text">Neural Networks</span>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">ML: concepts</span></a>
+ <span class="menu-text">NN: concepts</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -280,8 +282,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../machine_learning/machine_learning.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Machine Learning</span></a>
+  <a href="../neural_networks/neuralNetworks.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Neural Networks</span></a>
   </div>
 </li>
       </ul>
@@ -290,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
- <span class="menu-text">Supervised learning</span></a>
+ <span class="menu-text">NN types</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -298,38 +300,32 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../machine_learning/supervised_intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to Supervised Learning</span></a>
+  <a href="../neural_networks/cnn.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Convolusional Neural Network (CNN)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../machine_learning/linear_regression.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Linear Regression</span></a>
+  <a href="../neural_networks/gan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Generative Adversarial Networks (GANs)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../machine_learning/overfitting_underfitting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Quality of Fit</span></a>
+  <a href="../neural_networks/ts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Time Series (TS)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../machine_learning/train_test.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Train/Test</span></a>
+  <a href="../neural_networks/rnn.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recurrent Neural Networks (RNN)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../machine_learning/k_neighboors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">k-Nearest Neighboors</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../machine_learning/tree_methods.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tree-Based Methods</span></a>
+  <a href="../neural_networks/nlp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Natural Language Processing (NLP)</span></a>
   </div>
 </li>
       </ul>
@@ -347,7 +343,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Machine Learning</h1>
+<h1 class="title">Neural Networks</h1>
 </div>
 
 
@@ -362,15 +358,82 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computers to learn and improve their performance on a specific task without being explicitly programmed. In other words, it’s about creating algorithms that can learn patterns and relationships from data and make predictions or decisions based on that learning.</p>
-<p>The core idea behind machine learning is to enable computers to learn from data and adapt their behavior accordingly. Instead of being explicitly programmed with rules or instructions to carry out a task, machine learning algorithms are trained on a dataset that contains examples of input-output pairs. By analyzing these examples, the algorithm learns patterns and relationships in the data, which it can then use to make predictions or decisions on new, unseen data.</p>
-<p>There are several types of machine learning algorithms, including:</p>
-<p><strong>Supervised learning:</strong> In supervised learning, the algorithm is trained on a labeled dataset, where each example is associated with a label or outcome variable. The goal is to learn a mapping from input variables to output variables, such as class labels or numerical values. Common supervised learning tasks include classification (predicting discrete class labels) and regression (predicting continuous values).</p>
-<p><strong>Unsupervised learning:</strong> In unsupervised learning, the algorithm is trained on an unlabeled dataset, where the goal is to learn the underlying structure or patterns in the data. Unsupervised learning algorithms seek to identify clusters or groups of similar data points, discover hidden patterns, or reduce the dimensionality of the data.</p>
-<p><strong>Semi-supervised learning:</strong> Semi-supervised learning combines elements of supervised and unsupervised learning. It leverages a small amount of labeled data along with a larger amount of unlabeled data to improve the performance of the learning algorithm.</p>
-<p><strong>Reinforcement learning:</strong> Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback or rewards based on its actions, and its goal is to learn a policy or strategy that maximizes the cumulative reward over time.</p>
-<p>Machine learning algorithms are applied to a wide range of real-world problems, including image and speech recognition, natural language processing, recommendation systems, autonomous vehicles, medical diagnosis, and financial forecasting, among others. As data availability and computing power continue to grow, machine learning is becoming increasingly important in solving complex problems and driving innovation across various industries.</p>
-<p>Here will be given a brief introduction to the most relevant aspects of supervised learning.</p>
+<p><strong>Neural Networks</strong></p>
+<p>Neural networks, often referred to as artificial neural networks (ANNs) or simply “neural nets,” are computational models inspired by the structure and function of biological neural networks in the human brain. They are a subset of machine learning algorithms designed to recognize patterns and learn from data to perform tasks such as classification, regression, clustering, and more.</p>
+<p>The neural networks are not easily interpretable, but have a very good performance on image and speech recognition, natural language processing, computer vision, and reinforcement learning.</p>
+<p><em>Neurons:</em> Neurons are the basic building blocks of neural networks. Each neuron receives one or more input signals, applies a transformation to those inputs, and produces an output signal. In artificial neural networks, neurons are typically represented as mathematical functions that compute a weighted sum of inputs and apply an activation function to produce the output.</p>
+<p><img src="../images/neural_networks/Neuron.png" class="img-fluid"></p>
+<p>The inputs are the values received from the input data (or from the ouput of neurons in previous layer). Each input is associated with a weight, wich represents the strength of the connection between the input and the neuron.</p>
+<p>After calculating the weighted sum of inputs the neuron applies an activation function f to produce the output, which is nothing more than the prediction of the neuron.</p>
+<p>Neural networks have forward and backward propagation of the information to calculate the values of the weights asociated to every input data:</p>
+<ul>
+<li>Forward propagation: for each input row the features (inputs) are multiplied with their corresponding weights and added. An activation function is applied to this sum. At the end is calculated the loss function (prediction error).</li>
+<li>Backward propagation: Each weight is updated to optimize the loss function.</li>
+<li>Continue applying forward and backward propagation until convergense of the weights of until the maximum number of iteration (decided by user).</li>
+</ul>
+<p><em>Activation Functions:</em> Activation functions introduce non-linearity into the neural network, allowing it to learn complex relationships and patterns in the data. Common activation functions include: - linear - sigmoid - tanh - ReLU (Rectified Linear Unit) - softmax</p>
+<p>The choice of activation function determines the characteristics of the neuron’s output. Different activation functions introduce different properties such as non-linearity, sparsity, or output range.</p>
+<p>The choice of activation function depends on the specific task, network architecture, and desired properties of the network output. Each activation function has its advantages and disadvantages, and the selection is often based on empirical evaluation and experimentation.</p>
+<p><em>Layers:</em> Neurons are organized into layers within a neural network. The three main types of layers are:</p>
+<ul>
+<li>Input Layer: The input layer receives input data and passes it to the subsequent layers. It has the same length as number of features.</li>
+<li>Hidden Layers: Hidden layers are intermediate layers between the input and output layers. They perform transformations on the input data to learn patterns and features. The hidden layers can have any lenght.</li>
+<li>Output Layer: The output layer produces the final output of the neural network, such as class probabilities in classification tasks or numerical values in regression tasks. The lenght of this layer depends on the type of problem being studied. For example one neuron is needed for regression problems, or N neurons are needed for classifications problems with N classes.</li>
+</ul>
+<p><img src="../images/neural_networks/Layers.png" class="img-fluid"></p>
+<p><em>Deep NN (DNN)</em>: A deep neural network (DNN) is a type of artificial neural network with multiple hidden layers between the input and output layers. It is characterized by its depth, referring to the number of hidden layers in the network. Deep neural networks are capable of learning complex patterns and representations from data, making them suitable for a wide range of tasks, including image recognition, natural language processing or speech recognition.</p>
+<p><img src="../images/neural_networks/Deep_NN.png" class="img-fluid"></p>
+<p><em>Loss function:</em> The loss function measures the discrepancy between the predicted output of a neural network and the actual target values in the training data. It quantifies how well the neural network is performing on a specific task and provides a measure of the error or loss incurred by the model’s predictions.</p>
+<p>The choice of loss function depends on the type of task the neural network is performing.</p>
+<p>For Regression problems:</p>
+<ol type="1">
+<li><p>Mean Squared Error (MSE): <span class="math display">\[
+MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+\]</span></p></li>
+<li><p>Mean Absolute Error (MAE): <span class="math display">\[
+MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+\]</span></p></li>
+<li><p>Huber loss (robust to outliers): <span class="math display">\[
+Huber Loss = \frac{1}{n} \sum_{i=1}^{n} \left\{ \begin{array}{ll}
+\frac{1}{2} (y_i - \hat{y}_i)^2 &amp; \text{for } |y_i - \hat{y}_i| \leq \delta \\
+\delta |y_i - \hat{y}_i| - \frac{1}{2} \delta^2 &amp; \text{for } |y_i - \hat{y}_i| &gt; \delta
+\end{array} \right.
+\]</span></p></li>
+</ol>
+<p>For Classification problems:</p>
+<ol type="1">
+<li><p>Binary Cross-Entropy: <span class="math display">\[
+Binary Cross-Entropy = -\frac{1}{n} \sum_{i=1}^{n} \left( y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right)
+\]</span></p></li>
+<li><p>Sparse Categorical Cross-Entropy: <span class="math display">\[
+Sparse Categorical Cross-Entropy = -\frac{1}{N} \sum_{i=1}^{N} \log(p_{i, y_i})
+\]</span></p></li>
+<li><p>Categorical Cross-Entropy: <span class="math display">\[
+Categorical Cross-Entropy = -\frac{1}{n} \sum_{i=1}^{n} \sum_{j=1}^{m} y_{ij} \log(\hat{y}_{ij})
+\]</span></p></li>
+</ol>
+<p>The idea is to optimize the loss function, but them do not always converge. There is a considerable risk to get stuck in a local minima and never get the global minima.</p>
+<p><img src="../images/neural_networks/Loss_function.png" class="img-fluid"></p>
+<p>To avoid this we use Optimizers: - Adam - RMSprop - AdaGrad</p>
+<p>(Adam is an effective optimizer in the 95% of cases)</p>
+<p><em>Epochs:</em> an epoch refers to one complete pass through the entire training dataset during the training process. During each epoch, the model sees the entire dataset, computes the loss, and updates the model parameters (weights and biases) based on the gradients of the loss function.</p>
+<p>Neural Networks require multiple epochs for a good optimization of the weights, but this number of epochs has to be decided carefully: - Too many epochs can lead to overfitting. - Too few epochs may result in underfitting.</p>
+<p><strong>Recomendations</strong></p>
+<p>Here are some recomendations for the definition and training of the model.</p>
+<ul>
+<li>Number of layers:
+<ul>
+<li>One or two hidden for starting</li>
+<li>Maybe deeper for more complex data os task</li>
+</ul></li>
+<li>Neurons per layer:
+<ul>
+<li>It is common to start with a lenght between the input and the ouput</li>
+<li>Or even with more neurons than the input on the first layer</li>
+<li>Reducing the hidden sizes as the network goes deeper</li>
+</ul></li>
+<li>Adam is normally a good start</li>
+</ul>
 
 
 

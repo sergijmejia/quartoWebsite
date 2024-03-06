@@ -70,5 +70,26 @@
   },
   "machine_learning/tree_methods.ipynb": {
     "tree_methods.html": "6c91f59b"
+  },
+  "colab/colab_intro.qmd": {
+    "colab_intro.html": "97474d0c"
+  },
+  "neural_networks/neuralNetworks.qmd": {
+    "neuralNetworks.html": "eba7fc69"
+  },
+  "neural_networks/gan.ipynb": {
+    "gan.html": "10cefb29"
+  },
+  "neural_networks/rnn.ipynb": {
+    "rnn.html": "a665d97f"
+  },
+  "neural_networks/nlp.ipynb": {
+    "nlp.html": "e3313981"
+  },
+  "neural_networks/cnn.ipynb": {
+    "cnn.html": "dd4559e1"
+  },
+  "neural_networks/ts.ipynb": {
+    "ts.html": "f695e056"
   }
 }
