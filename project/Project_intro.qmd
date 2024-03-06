@@ -1,0 +1,9 @@
+---
+title: "HeadCount intro"
+---
+
+The idea of this project came from the politically motivated demonstrations during the month of November 2023 throughout Spain. When these types of demonstrations are held and the number of attendees is reported, very disparate data is always provided depending on the source. In the demonstrations that motivated this work, some associations reported that the monitoring had been 50,000 people, while others counted 1,000,000.
+
+As you can see, the difference is enormous. This gave me the idea: to be able to clarify, from an image and without any type of political bias, what is the real number of people attending.
+
+In order to carry out this project, two image datasets were obtained from Kaggle. These datasets contain both the images and the number of people found in them. The first dataset is images of small groups of people. The second dataset is of large groups of people (in some cases several thousand people in a single photo).

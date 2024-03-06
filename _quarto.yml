@@ -110,19 +110,33 @@ website:
 
     - id: "project"
       title: "Head-count project"
+      border: true
+      collapse-level: 1
+      background: light
+      search: true
+      style: "floating"
       contents:
         - text: "Head-count project"  
         - text: "---"
         - section: "Project: concepts"
           contents:
-            - Proyecto_HeadCounting.ipynb
+            - project/Project_intro.qmd
+            - project/Proyecto_HeadCounting.ipynb
 
     - id: "about"
       title: "About"
+      border: true
+      collapse-level: 1
+      background: light
+      search: true
+      style: "floating"
       contents:
         - text: "About"
         - text: "---"
         - section: "About me and this site"
+          contents:
+            - about/about_me.qmd
+            - about/about_site.qmd
           
 
         

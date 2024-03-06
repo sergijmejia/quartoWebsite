@@ -91,5 +91,17 @@
   },
   "neural_networks/ts.ipynb": {
     "ts.html": "f695e056"
+  },
+  "about/about_me.qmd": {
+    "about_me.html": "dbeb14fa"
+  },
+  "about/about_site.qmd": {
+    "about_site.html": "89a25dcd"
+  },
+  "project/Proyecto_HeadCounting.ipynb": {
+    "Proyecto_HeadCounting.html": "162337b8"
+  },
+  "project/Project_intro.qmd": {
+    "Project_intro.html": "cdc9a5e2"
   }
 }

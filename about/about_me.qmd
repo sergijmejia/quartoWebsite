@@ -1,0 +1,17 @@
+---
+title: "About me"
+---
+
+## Introduction
+Hi, this is **sergi** speaking! 
+
+I'm a Process Enginner with a long expertise in automotive industry and soon a **data scientist**
+
+### Contact 
+
+**personal:** [personal](mailto:sergimejia@gmail.com)
+
+#### Linkedin
+  
+[linkedin.com/in/sergio-mejia-assmus/](https://www.linkedin.com/in/sergio-mejia-assmus-9b6a8aab/)
+

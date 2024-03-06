@@ -2,9 +2,15 @@
 title: "Quarto Website"
 ---
 
-This is a Quarto website.
+This is a Quarto website project.
+
+The idea of this website is to present the final project carried out for the "**Machine Learning and Neural Networks**" course. You can also find and study the theoretical bases necessary to understand how the project was developed.
+
+The entire website design is inspired in [albertprofe wiki](albertprofe.dev) (thanks Albert! you are the best!)
+
+
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 
-Esto es hacer una prueba
+

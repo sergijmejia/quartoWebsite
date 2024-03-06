@@ -1,0 +1,18 @@
+---
+title: "About this site"
+---
+
+## Introduction
+This site is inspired in [albertprofe wiki](albertprofe.dev) and has been done with four tools and several content sources: 
+
+#### Tools
+
+  1. [Quarto](https://quarto.org/)
+  2. [Markdown](https://www.markdownguide.org/)
+  3. [Git](https://git-scm.com/) / [GitHub.com](https://github.com/) / [Git Pages](https://pages.github.com/)
+  4. [Visual Code IDE](https://code.visualstudio.com/)
+
+#### Content Sources
+
+  1. [OpenAI Chat](https://chat.openai.com/)
+  2. Documentation of my own: **sergi** 
