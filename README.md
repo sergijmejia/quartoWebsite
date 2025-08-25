@@ -1,3 +1,6 @@
+## 🚧 Proyecto en Desarrollo 🚧
+Este proyecto aún está en desarrollo y puede contener errores o funciones incompletas. 
+
 # 🌐 Web Interactiva: Python, Machine Learning y CNN para Conteo de Personas
 
 [![GitHub](https://img.shields.io/badge/GitHub-sergijmejia-181717?style=flat&logo=github)](https://github.com/sergijmejia/quartoWebsite)
@@ -106,4 +109,3 @@ quarto render
 ```
 quarto preview
 ```
-
